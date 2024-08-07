@@ -1,4 +1,10 @@
 
+CREATE TABLE customer (
+    id VARCHAR (10) PRIMARY KEY ,
+    name VARCHAR (50) NOT NULL
+);
+
+
 INSERT INTO user (username, name, password) VALUES
                                                 ('user1', 'Saman edirimuni', 'password1'),
                                                 ('user2', 'Sahan sena', 'password2'),
@@ -16,3 +22,4 @@ CREATE TABLE  "user"(
                         name VARCHAR(200) NOT NULL ,
                         password VARCHAR(300) NOT NULL
 );
+
