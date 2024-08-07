@@ -10,3 +10,9 @@ INSERT INTO user (username, name, password) VALUES
                                                 ('user8', 'Sanduni sapasara', 'password8'),
                                                 ('user9', 'dilani menakaa', 'password9'),
                                                 ('user10', 'sadalu merun', 'password10');
+
+CREATE TABLE  "user"(
+                        username VARCHAR(100) PRIMARY KEY ,
+                        name VARCHAR(200) NOT NULL ,
+                        password VARCHAR(300) NOT NULL
+);
